@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+    <head>
+        <title>Covid-19</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Covid-19 estatísticas">
+        <meta name="viewport" content="device=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/components/main-content.css">
+        <link rel="stylesheet" href="styles/components/main-title.css">
+        <link rel="stylesheet" href="styles/components/main-wrapper.css">
+        <link rel="stylesheet" href="styles/components/search-input.css">
+        <link rel="stylesheet" href="styles/components/secondary-title.css">
+        <link rel="stylesheet" href="styles/components/cases-box.css">
+    </head>
+    <body>
+        <main class="main-content">
+            <div class="main-wrapper -flexCCC">
+                <span class="secondary-title -marginTB">Digite o nome do País</span>
+                <div class="main-wrapper">
+                    <input class="search-input" type="text" placeholder="País" id="input">
+                    <button class="main-button search" onclick="getInputValue();">Pesquisar</button>
+                </div>
+            </div>
+            <h2 class="country-name -none"><span id="country"></span></h2>
+            <div class="main-wrapper -grid -none" id="cases-container">
+                <div class="cases-box -actives">
+                    <h3 class="subtitle -">Casos Ativos</h3>
+                    <div class="data" id="activeCases"></div>
+                </div>
+                <div class="cases-box -total">
+                    <h3 class="subtitle -">Casos Totais</h3>
+                    <div class="data" id="totalCases"></div>
+                </div>
+                <div class="cases-box -critical">
+                    <h3 class="subtitle -"> Casos Criticos</h3>
+                    <div class="data" id="criticalCases"></div>
+                </div>
+                <div class="cases-box -recovered">
+                    <h3 class="subtitle -">Casos Recuperados</h3>
+                    <div class="data" id="recoveredCases"></div>
+                </div>
+                <div class="cases-box -deaths">
+                    <h3 class="subtitle -">Total de Mortes</h3>
+                    <div class="data" id="totalDeaths"></div>
+                </div>
+                <div class="cases-box -tests">
+                    <h3 class="subtitle -">Testes Realizados</h3>
+                    <div class="data" id="testsDones"></div>
+                </div>
+            </div>
+        </main>
+        <script src="scripts/general.js"></script>
+    </body>
+</html>

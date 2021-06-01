@@ -1,0 +1,24 @@
+.search-input {
+    padding: 10px;
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    outline: none;
+    max-width: 300px;
+}
+
+.main-button {
+    padding: 10px;
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    background: rgb(50, 50, 50);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.main-button.-error {
+    background: rgb(255, 63, 63);
+}
+
+.main-button.-success {
+    background: rgb(63, 255, 63);
+}

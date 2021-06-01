@@ -1,0 +1,9 @@
+.secondary-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.secondary-title.-marginTB {
+    margin: 10px 0px;
+}

@@ -1,0 +1,45 @@
+.cases-box {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+}
+
+.cases-box .subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 2px var(--black);
+    color: var(--white);
+}
+
+.cases-box .data {
+    text-align: center;
+    font-weight: bold;
+    color: var(--white);
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 2px var(--black);
+}
+
+.cases-box.-actives {
+    background-image: linear-gradient(to right, #4473f5 0%, #3c65d8  51%, #4473f5  100%)
+}
+
+.cases-box.-total {
+    background-image: linear-gradient(to right, #ffd92f 0%, #e0bf28  51%, #ffd92f  100%)
+}
+
+.cases-box.-critical {
+    background-image: linear-gradient(to right, #ffac2f 0%, #e49a2a  51%, #ffac2f  100%)
+}
+
+.cases-box.-recovered {
+    background-image: linear-gradient(to right, #2fff4b 0%, #28da3f  51%, #2fff4b  100%)
+}
+
+.cases-box.-deaths {
+    background-image: linear-gradient(to right, #ff2f2f 0%, #e42a2a  51%, #ff2f2f  100%)
+}
+
+.cases-box.-tests {
+    background-image: linear-gradient(to right, #2fffd2 0%, #2ae6bd  51%, #2fffd2  100%)
+}
